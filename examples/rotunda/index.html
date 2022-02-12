@@ -1,33 +1,38 @@
+<!DOCTYPE html>
+<html>
+
 <head>
-    <style>
-        body {
-            margin: 0;
-        }
-    </style>
+    <meta charset="utf-8">
+    <title>A-Frame 3D Force-Directed Graph Component - Basic</title>
+    <meta name="description" content="Basic example for 3D Force-Directed Graph component."></meta>
 
-    <script src="//unpkg.com/three"></script>
-    <script src="//unpkg.com/three-spritetext"></script>
-
-    <script src="//unpkg.com/3d-force-graph"></script>
+    <script src="https://unpkg.com/aframe"></script>
+    <script src="../../dist/aframe-forcegraph-component.min.js"></script>
 </head>
 
 <body>
-    <div id="3d-graph"></div>
+    <a-scene>
+        <a-entity cursor="rayOrigin: mouse; mouseCursorStylesEnabled: true;" raycaster="objects: [forcegraph];"></a-entity>
+        <a-entity laser-controls="hand: left" raycaster="objects: [forcegraph]; lineColor: steelblue; lineOpacity: 0.85;"></a-entity>
+        <a-entity laser-controls="hand: right" raycaster="objects: [forcegraph]; lineColor: steelblue; lineOpacity: 0.85;"></a-entity>
 
-    <script>
-        const Graph = ForceGraph3D()
-            (document.getElementById('3d-graph'))
-            .jsonUrl('book.json')
-            .nodeAutoColorBy('group')
-            .nodeThreeObject(node => {
-                const sprite = new SpriteText(node.id);
-                sprite.material.depthWrite = false; // make sprite background transparent
-                sprite.color = node.color;
-                sprite.textHeight = 8;
-                return sprite;
-            });
+        <a-camera look-controls="pointerLockEnabled: false" wasd-controls="fly: true; acceleration: 600;">
+            <!-- <a-cursor color="lavender" opacity="0.5" raycaster="objects: [forcegraph]"></a-cursor> -->
+            <a-text id="forcegraph-tooltip" position="0 -0.25 -1" width="2" align="center" color="lavender"></a-text>
+        </a-camera>
+        <a-sky color="#002"></a-sky>
+        // need to fix this code to display the names instead of a ball
+        <a-entity forcegraph="
+        json-url: book.json;
+        node-auto-color-by: group;
+        link-directional-arrow-length: 1.5;
+        link-directional-arrow-rel-pos: 1;
+        on-node-hover: node => document.querySelector('#forcegraph-tooltip').setAttribute('value', node ? node.id : '');
+        on-node-click: node => document.querySelector('#forcegraph-tooltip').setAttribute('value', `Clicked on ${node.id}!`);
+      "></a-entity>
+    </a-scene>
 
-        // Spread nodes a little wider
-        Graph.d3Force('charge').strength(-800);
-    </script>
+
 </body>
+
+</html>
