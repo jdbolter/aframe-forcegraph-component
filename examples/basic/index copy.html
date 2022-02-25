@@ -18,6 +18,7 @@
         sprite.textHeight = 8;
         return sprite;
     }
+
     /*don't think I need this code
     const el = document.createElement('a-entity')
     el.setAttribute('forcegraph', {
@@ -52,9 +53,11 @@
       <a-entity forcegraph="
         json-url: book.json;
         node-auto-color-by: group;
-        link-width: .1;
+        link-directional-arrow-length: 1.5;
+        link-directional-arrow-rel-pos: 1;
         node-three-object: generateTextNode(node);
         on-node-hover: node => document.querySelector('#forcegraph-tooltip').setAttribute('value', node ? node.id : '');
+        on-node-click: node => document.querySelector('#forcegraph-tooltip').setAttribute('value', `Clicked on ${node.id}!`);
       "></a-entity>
     </a-scene>
 
