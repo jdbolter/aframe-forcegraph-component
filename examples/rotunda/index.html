@@ -1,38 +1,54 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <meta charset="utf-8">
     <title>A-Frame 3D Force-Directed Graph Component - Basic</title>
     <meta name="description" content="Basic example for 3D Force-Directed Graph component."></meta>
 
     <script src="https://unpkg.com/aframe"></script>
     <script src="../../dist/aframe-forcegraph-component.min.js"></script>
-</head>
-
-<body>
+    <script src="//unpkg.com/three-spritetext"></script>
+    <script>
+    //adding in the code from the text node example in forcegraph repo
+    // import SpriteText from 'three-spritetext';
+    function generateTextNode(node) {
+        console.log("entering generateTextNode function");
+        const sprite = s
+        sprite.material.depthWrite = false; 
+        sprite.color = node.color;  
+        sprite.textHeight = 8;
+        return sprite;
+    }
+    </script>
+  </head>
+  <body>
     <a-scene>
-        <a-entity cursor="rayOrigin: mouse; mouseCursorStylesEnabled: true;" raycaster="objects: [forcegraph];"></a-entity>
-        <a-entity laser-controls="hand: left" raycaster="objects: [forcegraph]; lineColor: steelblue; lineOpacity: 0.85;"></a-entity>
-        <a-entity laser-controls="hand: right" raycaster="objects: [forcegraph]; lineColor: steelblue; lineOpacity: 0.85;"></a-entity>
+      <a-entity cursor="rayOrigin: mouse; mouseCursorStylesEnabled: true;" raycaster="objects: [forcegraph];"></a-entity>
+      <a-entity laser-controls="hand: left" raycaster="objects: [forcegraph]; lineColor: steelblue; lineOpacity: 0.85;"></a-entity>
+      <a-entity laser-controls="hand: right" raycaster="objects: [forcegraph]; lineColor: steelblue; lineOpacity: 0.85;"></a-entity>
 
-        <a-camera look-controls="pointerLockEnabled: false" wasd-controls="fly: true; acceleration: 600;">
-            <!-- <a-cursor color="lavender" opacity="0.5" raycaster="objects: [forcegraph]"></a-cursor> -->
-            <a-text id="forcegraph-tooltip" position="0 -0.25 -1" width="2" align="center" color="lavender"></a-text>
-        </a-camera>
-        <a-sky color="#002"></a-sky>
-        // need to fix this code to display the names instead of a ball
-        <a-entity forcegraph="
+      <a-camera
+        look-controls="pointerLockEnabled: false"
+        wasd-controls="fly: true; acceleration: 600;"
+      >
+        <!-- <a-cursor color="lavender" opacity="0.5" raycaster="objects: [forcegraph]"></a-cursor> -->
+        <a-text
+          id="forcegraph-tooltip"
+          position="0 -0.25 -1"
+          width="2"
+          align="center"
+          color="lavender"
+        ></a-text>
+      </a-camera>
+      <a-sky color="#002"></a-sky>
+
+      <a-entity forcegraph="
         json-url: book.json;
         node-auto-color-by: group;
-        link-directional-arrow-length: 1.5;
-        link-directional-arrow-rel-pos: 1;
+        link-width: .1;
+        node-three-object: generateTextNode(node);
         on-node-hover: node => document.querySelector('#forcegraph-tooltip').setAttribute('value', node ? node.id : '');
-        on-node-click: node => document.querySelector('#forcegraph-tooltip').setAttribute('value', `Clicked on ${node.id}!`);
       "></a-entity>
     </a-scene>
-
-
-</body>
-
+  </body>
 </html>
