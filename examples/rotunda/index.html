@@ -13,7 +13,7 @@
     // import SpriteText from 'three-spritetext';
     function generateTextNode(node) {
         console.log("entering generateTextNode function");
-        const sprite = s
+        const sprite = new SpriteText(node.id);
         sprite.material.depthWrite = false; 
         sprite.color = node.color;  
         sprite.textHeight = 8;
@@ -23,9 +23,9 @@
   </head>
   <body>
     <a-scene>
-      <a-entity cursor="rayOrigin: mouse; mouseCursorStylesEnabled: true;" raycaster="objects: [forcegraph];"></a-entity>
+   <!--   <a-entity cursor="rayOrigin: mouse; mouseCursorStylesEnabled: true;" raycaster="objects: [forcegraph];"></a-entity>
       <a-entity laser-controls="hand: left" raycaster="objects: [forcegraph]; lineColor: steelblue; lineOpacity: 0.85;"></a-entity>
-      <a-entity laser-controls="hand: right" raycaster="objects: [forcegraph]; lineColor: steelblue; lineOpacity: 0.85;"></a-entity>
+      <a-entity laser-controls="hand: right" raycaster="objects: [forcegraph]; lineColor: steelblue; lineOpacity: 0.85;"></a-entity> -->
 
       <a-camera
         look-controls="pointerLockEnabled: false"
@@ -46,7 +46,7 @@
         json-url: book.json;
         node-auto-color-by: group;
         link-width: .1;
-        node-three-object: generateTextNode(node);
+        node-three-object: generateTextNode;
         on-node-hover: node => document.querySelector('#forcegraph-tooltip').setAttribute('value', node ? node.id : '');
       "></a-entity>
     </a-scene>
