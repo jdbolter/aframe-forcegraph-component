@@ -1,6 +1,6 @@
 {
     "nodes": [{
-            "id": "*",
+            "id": "-",
             "name": "Jay David Bolter, Maria Engberg, & Blair MacIntyre",
             "group": 1
         },
@@ -21,7 +21,7 @@
         },
         {
             "id": "What are AR & VR?",
-            "name": "the latest *",
+            "name": "the latest -",
             "group": 1
         },
         {
@@ -262,35 +262,35 @@
 
     ],
     "links": [{
-            "source": "*",
+            "source": "-",
             "target": "What are Reality Media?"
         },
         {
-            "source": "*",
+            "source": "-",
             "target": "What are AR & VR?"
         },
         {
-            "source": "*",
+            "source": "-",
             "target": "History of Reality Media"
         },
         {
-            "source": "*",
+            "source": "-",
             "target": "3D Graphics & Sensing & Tracking"
         },
         {
-            "source": "*",
+            "source": "-",
             "target": "Presence & Aura"
         },
         {
-            "source": "*",
+            "source": "-",
             "target": "Genres"
         },
         {
-            "source": "*",
+            "source": "-",
             "target": "Privacy & Public Space"
         },
         {
-            "source": "*",
+            "source": "-",
             "target": "The Future of AR & VR"
         },
         {
