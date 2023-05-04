@@ -1,0 +1,469 @@
+{
+    "nodes": [{
+            "id": " ",
+            "name": "Jay David Bolter, Maria Engberg, & Blair MacIntyre",
+            "group": 1
+        },
+        {
+            "id": "What are Reality Media?",
+            "name": "Film, television, AR & VR are all REALITY MEDIA",
+            "group": 1
+        },
+        {
+            "id": "La Ciotat effect",
+            "name": "each reality medium has this effect",
+            "group": 2
+        },
+        {
+            "id": "Remediation",
+            "name": "each reality medium borrows from earlier reality media",
+            "group": 2
+        },
+        {
+            "id": "What are AR & VR?",
+            "name": "the latest  ",
+            "group": 1
+        },
+        {
+            "id": "The origins of AR & VR",
+            "name": "the sword of Damocles",
+            "group": 3
+        },
+        {
+            "id": "The virtuality continuum",
+            "name": "the spectrum of AR & VR",
+            "group": 3
+        },
+        {
+            "id": "XR & the web",
+            "name": "AR & VR come together",
+            "group": 3
+        },
+        {
+            "id": "History of Reality Media",
+            "name": "dates back at least to the Renaissance",
+            "group": 1
+        },
+        {
+            "id": "Renaissance painting",
+            "name": "use of perspective to create sense of depth",
+            "group": 4
+        },
+        {
+            "id": "Panorama",
+            "name": "360 degree painting exhibitions",
+            "group": 4
+        },
+        {
+            "id": "Photography",
+            "name": "automatic or 'natural' reproduction of the real",
+            "group": 4
+        },
+        {
+            "id": "Film",
+            "name": "forerunner of VR",
+            "group": 4
+        },
+        {
+            "id": "Television",
+            "name": "forerunner of AR as everyday reality medium",
+            "group": 4
+        },
+        {
+            "id": "360 video",
+            "name": "halfway between film & full immersive VR",
+            "group": 4
+        },
+        {
+            "id": "3D Graphics & Sensing & Tracking",
+            "name": "key technologies for AR & VR",
+            "group": 1
+        },
+        {
+            "id": "Photorealism",
+            "name": "CD graphic techniques to represent the real",
+            "group": 5
+        },
+        {
+            "id": "The uncanny valley",
+            "name": "the failure of photorealism?",
+            "group": 5
+        },
+        {
+            "id": "Uncanny doubling",
+            "name": "The uncanny double predate CG photorealism",
+            "group": 5
+        },
+        {
+            "id": "Tracking the user in 6 DOF",
+            "name": "Six degrees of freedom",
+            "group": 5
+        },
+        {
+            "id": "Sensing the world",
+            "name": "Techniques for mapping the environment",
+            "group": 5
+        },
+        {
+            "id": "POV",
+            "name": "POV & the aesthetics of AR & VR",
+            "group": 5
+        },
+        {
+            "id": "Presence & Aura",
+            "name": "striving for the real",
+            "group": 1
+        },
+        {
+            "id": "Definitions of presence",
+            "name": "as transportation, immersion, realism & social presence",
+            "group": 6
+        },
+        {
+            "id": "Absence of mediation",
+            "name": "presence as the La Ciotat myth: the medium disappears",
+            "group": 6
+        },
+        {
+            "id": "Measures of presence",
+            "name": "presence as empathy or physiological fear",
+            "group": 6
+        },
+        {
+            "id": "Cybersickness",
+            "name": "can lead to loss of presence",
+            "group": 6
+        },
+        {
+            "id": "Aura & cultural heritage",
+            "name": "the Acropolis, Terracotta warriors, etc.",
+            "group": 6
+        },
+        {
+            "id": "Space & place",
+            "name": "Yi Fu Tuan's distinction applied to AR & VR",
+            "group": 6
+        },
+        {
+            "id": "Genres",
+            "name": "VR & AR apps belong to various media genres",
+            "group": 1
+        },
+        {
+            "id": "Video games",
+            "name": "most popular and lucrative genre",
+            "group": 7
+        },
+        {
+            "id": "Pornography",
+            "name": "second most popular?",
+            "group": 7
+        },
+        {
+            "id": "AR, VR & MR Art",
+            "name": "remediates installation art and other media arts",
+            "group": 7
+        },
+        {
+            "id": "Documentary & journalism",
+            "name": "VR as 'empathy machine'",
+            "group": 7
+        },
+        {
+            "id": "Cultural heritage",
+            "name": "relates to aura and presence",
+            "group": 7
+        },
+        {
+            "id": "Healthcare & medical applications",
+            "name": "most important 'practical' applications?",
+            "group": 7
+        },
+        {
+            "id": "Architecture & design",
+            "name": "VR and AR good to visualization",
+            "group": 7
+        },
+        {
+            "id": "Product display & retail",
+            "name": "form of advertising",
+            "group": 7
+        },
+        {
+            "id": "Training & education",
+            "name": "e.g. flight simulation",
+            "group": 7
+        },
+        {
+            "id": "Navigation",
+            "name": "Google Live view",
+            "group": 7
+        },
+        {
+            "id": "Social spaces",
+            "name": "Zuckerberg's vision for Meta",
+            "group": 7
+        },
+        {
+            "id": "Privacy & Public Space",
+            "name": "AR (& VR) redefine public & private space",
+            "group": 1
+        },
+        {
+            "id": "Surveillance media",
+            "name": "reconfiguring public spaces dates to 19th century",
+            "group": 8
+        },
+        {
+            "id": "Datafication of space",
+            "name": "AR and VR contribute further",
+            "group": 8
+        },
+        {
+            "id": "Virtual trespassing",
+            "name": "e.g. Pokémon Go",
+            "group": 8
+        },
+        {
+            "id": "The Future of AR & VR",
+            "name": "multiple futures imagined",
+            "group": 1
+        },
+        {
+            "id": "The myth of total AR",
+            "name": "like Bazin's myth of total cinema",
+            "group": 8
+        },
+        {
+            "id": "Mirror worlds & AR cloud(s)",
+            "name": "a digital model of our physical and social world",
+            "group": 8
+        },
+        {
+            "id": "The myth of total VR",
+            "name": "like Bazin's myth of total cinema",
+            "group": 8
+        },
+        {
+            "id": "The metaverse & social media",
+            "name": "Zuckerberg's and others' vision",
+            "group": 8
+        },
+        {
+            "id": "The uncanny metaverse",
+            "name": "the true metaverse only in science fiction",
+            "group": 8
+        },
+        {
+            "id": "The possible, plausible & probable",
+            "name": "a scale of futures based on likelihood",
+            "group": 8
+        }
+
+    ],
+    "links": [{
+            "source": " ",
+            "target": "What are Reality Media?"
+        },
+        {
+            "source": " ",
+            "target": "What are AR & VR?"
+        },
+        {
+            "source": " ",
+            "target": "History of Reality Media"
+        },
+        {
+            "source": " ",
+            "target": "3D Graphics & Sensing & Tracking"
+        },
+        {
+            "source": " ",
+            "target": "Presence & Aura"
+        },
+        {
+            "source": " ",
+            "target": "Genres"
+        },
+        {
+            "source": " ",
+            "target": "Privacy & Public Space"
+        },
+        {
+            "source": " ",
+            "target": "The Future of AR & VR"
+        },
+        {
+            "source": "What are Reality Media?",
+            "target": "La Ciotat effect"
+        },
+        {
+            "source": "What are Reality Media?",
+            "target": "Remediation"
+        },
+        {
+            "source": "What are AR & VR?",
+            "target": "The origins of AR & VR"
+        },
+        {
+            "source": "What are AR & VR?",
+            "target": "The virtuality continuum"
+        },
+        {
+            "source": "What are AR & VR?",
+            "target": "XR & the web"
+        },
+        {
+            "source": "History of Reality Media",
+            "target": "Renaissance painting"
+        },
+        {
+            "source": "History of Reality Media",
+            "target": "Panorama"
+        },
+        {
+            "source": "History of Reality Media",
+            "target": "Photography"
+        },
+        {
+            "source": "History of Reality Media",
+            "target": "Film"
+        },
+        {
+            "source": "History of Reality Media",
+            "target": "Television"
+        },
+        {
+            "source": "History of Reality Media",
+            "target": "360 video"
+        },
+        {
+            "source": "3D Graphics & Sensing & Tracking",
+            "target": "Photorealism"
+        },
+        {
+            "source": "3D Graphics & Sensing & Tracking",
+            "target": "The uncanny valley"
+        },
+        {
+            "source": "3D Graphics & Sensing & Tracking",
+            "target": "Uncanny doubling"
+        },
+        {
+            "source": "3D Graphics & Sensing & Tracking",
+            "target": "Tracking the user in 6 DOF"
+        },
+        {
+            "source": "3D Graphics & Sensing & Tracking",
+            "target": "Sensing the world"
+        },
+        {
+            "source": "3D Graphics & Sensing & Tracking",
+            "target": "POV"
+        },
+        {
+            "source": "Presence & Aura",
+            "target": "Definitions of presence"
+        },
+        {
+            "source": "Presence & Aura",
+            "target": "Absence of mediation"
+        },
+        {
+            "source": "Presence & Aura",
+            "target": "Measures of presence"
+        },
+        {
+            "source": "Presence & Aura",
+            "target": "Cybersickness"
+        },
+        {
+            "source": "Presence & Aura",
+            "target": "Aura & cultural heritage"
+        },
+        {
+            "source": "Presence & Aura",
+            "target": "Space & place"
+        },
+        {
+            "source": "Genres",
+            "target": "Video games"
+        },
+        {
+            "source": "Genres",
+            "target": "Pornography"
+        },
+        {
+            "source": "Genres",
+            "target": "AR, VR & MR Art"
+        },
+        {
+            "source": "Genres",
+            "target": "Documentary & journalism"
+        },
+        {
+            "source": "Genres",
+            "target": "Cultural heritage"
+        },
+        {
+            "source": "Genres",
+            "target": "Healthcare & medical applications"
+        },
+        {
+            "source": "Genres",
+            "target": "Architecture & design"
+        },
+        {
+            "source": "Genres",
+            "target": "Product display & retail"
+        },
+        {
+            "source": "Genres",
+            "target": "Training & education"
+        },
+        {
+            "source": "Genres",
+            "target": "Navigation"
+        },
+        {
+            "source": "Genres",
+            "target": "Social spaces"
+        },
+        {
+            "source": "Privacy & Public Space",
+            "target": "Surveillance media"
+        },
+        {
+            "source": "Privacy & Public Space",
+            "target": "Datafication of space"
+        },
+        {
+            "source": "Privacy & Public Space",
+            "target": "Virtual trespassing"
+        },
+        {
+            "source": "The Future of AR & VR",
+            "target": "The myth of total AR"
+        },
+        {
+            "source": "The Future of AR & VR",
+            "target": "Mirror worlds & AR cloud(s)"
+        },
+        {
+            "source": "The Future of AR & VR",
+            "target": "The myth of total VR"
+        },
+        {
+            "source": "The Future of AR & VR",
+            "target": "The metaverse & social media"
+        },
+        {
+            "source": "The Future of AR & VR",
+            "target": "The uncanny metaverse"
+        },
+        {
+            "source": "The Future of AR & VR",
+            "target": "The possible, plausible & probable"
+        }
+    ]
+}
