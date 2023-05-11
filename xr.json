@@ -1,0 +1,340 @@
+{
+    "nodes": [{
+            "id": "XR",
+            "name": "By Julia Karlsson and Philip Johannesson",
+            "group": 1
+        },
+        {
+            "id": "Data & Privacy",
+            "name": "With XR comes new data and privacy questions",
+            "group": 1
+        },
+        {
+            "id": "Adoption Curve Theory",
+            "name": "Theory that explains the adoption of technologies or services",
+            "group": 1
+        },
+        {
+            "id": "Hype leads to higher adoption",
+            "name": "With hype comes many new users",
+            "group": 3
+        },
+        {
+            "id": "Less hype = less investors",
+            "name": "Hype gives the industry momentum",
+            "group": 3
+        },
+        {
+            "id": "Low adoption = low market penetration",
+            "name": "Adoption is important to penetrate the market",
+            "group": 3
+        },
+        {
+            "id": "Media Convergence Theory",
+            "name": "Theory that exaplains the movement of technology",
+            "group": 1
+        },
+        {
+            "id": "Digital and physical worlds",
+            "name": "The world is divided into both digital and physical",
+            "group": 5
+        },
+        {
+            "id": "New revenue streams",
+            "name": "Convergence of media creates new revenue opportunities",
+            "group": 5
+        },
+        {
+            "id": "Intertwined & integrated platforms",
+            "name": "Platforms are connected and working together",
+            "group": 5
+        },
+        {
+            "id": "Digital plenitude",
+            "name": "Abundance of digital information and resources",
+            "group": 5
+        },
+        {
+            "id": "Digital identities",
+            "name": "Digital identities will be an even bigger thing",
+            "group": 5
+        },
+
+        {
+            "id": "Opportunities",
+            "name": "Opportunities for startups using XR",
+            "group": 1
+        },
+        {
+            "id": "Synergi with emerging technologies",
+            "name": "Emerging technologes are integrated into the XR infrastructure",
+            "group": 4
+        },
+        {
+            "id": "Enabling social cues",
+            "name": "VR enables more social cues such as bodylanguage",
+            "group": 4
+        },
+        {
+            "id": "New markets",
+            "name": "XR has created new markets which startups might be able to profit from",
+            "group": 4
+        },
+        {
+            "id": "Low on content for consumers",
+            "name": "Compared to other mediums there are currently not much content available for customers",
+            "group": 4
+        },
+        {
+            "id": "Immersiveness",
+            "name": "Can enhance usrs engagement and experiences",
+            "group": 4
+        },
+        {
+            "id": "New ways of gathering data",
+            "name": "With XR comes new way of gathers user-based data",
+            "group": 6
+        },
+        {
+            "id": "Ethical questions",
+            "name": "With XR new ethical and moral questions are raised ",
+            "group": 6
+        },
+        {
+            "id": "Video of surrounding",
+            "name": "With XR, you are filming your environment",
+            "group": 6
+        },
+        {
+            "id": "Challenges",
+            "name": "Challenges for startups using XR",
+            "group": 1
+        },
+        {
+            "id": "Data & privacy",
+            "name": "What is ethical and morally correct to collect?'",
+            "group": 7
+        },
+        {
+            "id": "Low adoption",
+            "name": "Currently, the markets suffers from low adoption",
+            "group": 7
+        },
+        {
+            "id": "Funding & investment",
+            "name": "The current economic situation, combined with past pandemic situation ",
+            "group": 7
+        },
+        {
+            "id": "Uncomfortable headset",
+            "name": "Headsets are currently described as uncomfortable",
+            "group": 7
+        },
+        {
+            "id": "Unstable market",
+            "name": "Market is still very young",
+            "group": 7
+        },
+        {
+            "id": "Disruptive Innovation Theory",
+            "name": "Theory that explains disruptive innovations",
+            "group": 1
+        },
+        {
+            "id": "Reaching new segments",
+            "name": "Disruptive innovations can help reach new segments",
+            "group": 8
+        },
+        {
+            "id": "Creation of new markets",
+            "name": "Disruptive innovations create new markets",
+            "group": 8
+        },
+        {
+            "id": "High market impact",
+            "name": "Disruptive innovations can have significant effect on markets and indsutries",
+            "group": 8
+        },
+        {
+            "id": "Trends",
+            "name": "Within the XR industry",
+            "group": 1
+        },
+        {
+            "id": "Collaborative creation",
+            "name": "Creating content collaboratively",
+            "group": 8
+        },
+        {
+            "id": "All in one platform",
+            "name": "Platforms that provide multiple services",
+            "group": 8
+        },
+        {
+            "id": "Virtual societies & identities",
+            "name": "Virtual societies and identities within new platforms",
+            "group": 8
+        },
+        {
+            "id": "Metaverse",
+            "name": "The hype may have slowed down, but it is still a trend within XR",
+            "group": 8
+        },
+        {
+            "id": "Integrating new technologies",
+            "name": "New technologies opens up for further development within XR",
+            "group": 8
+        }
+
+    ],
+    "links": [
+        {
+            "source": "XR",
+            "target": "Adoption Curve Theory"
+        },
+        {
+            "source": "XR",
+            "target": "Media Convergence Theory"
+        },
+        {
+            "source": "XR",
+            "target": "Opportunities"
+        },
+        {
+            "source": "XR",
+            "target": "Data & Privacy"
+        },
+        {
+            "source": "XR",
+            "target": "Challenges"
+        },
+        {
+            "source": "XR",
+            "target": "Disruptive Innovation Theory"
+        },
+        {
+            "source": "XR",
+            "target": "Trends"
+        },
+        {
+            "source": "Adoption Curve Theory",
+            "target": "Hype leads to higher adoption"
+        },
+        {
+            "source": "Adoption Curve Theory",
+            "target": "Less hype = less investors"
+        },
+        {
+            "source": "Adoption Curve Theory",
+            "target": "Low adoption = low market penetration"
+        },
+        {
+            "source": "Media Convergence Theory",
+            "target": "Digital and physical worlds"
+        },
+        {
+            "source": "Media Convergence Theory",
+            "target": "New revenue streams"
+        },
+        {
+            "source": "Media Convergence Theory",
+            "target": "Intertwined & integrated platforms"
+        },
+        {
+            "source": "Media Convergence Theory",
+            "target": "Digital plenitude"
+        },
+        {
+            "source": "Media Convergence Theory",
+            "target": "Digital identities"
+        },
+        {
+            "source": "Opportunities",
+            "target": "Synergi with emerging technologies"
+        },
+        {
+            "source": "Opportunities",
+            "target": "Enabling social cues"
+        },
+        {
+            "source": "Opportunities",
+            "target": "New markets"
+        },
+        {
+            "source": "Opportunities",
+            "target": "Low on content for consumers"
+        },
+        {
+            "source": "Opportunities",
+            "target": "Immersiveness"
+        },
+        {
+            "source": "Data & Privacy",
+            "target": "Ethical questions"
+        },
+        {
+            "source": "Data & Privacy",
+            "target": "New ways of gathering data"
+        },
+        {
+            "source": "Data & Privacy",
+            "target": "Ethical questions"
+        },
+        {
+            "source": "Data & Privacy",
+            "target": "Video of surrounding"
+        },
+        {
+            "source": "Challenges",
+            "target": "Data & privacy"
+        },
+        {
+            "source": "Challenges",
+            "target": "Low adoption"
+        },
+        {
+            "source": "Challenges",
+            "target": "Funding & investment"
+        },
+        {
+            "source": "Challenges",
+            "target": "Uncomfortable headset"
+        },
+        {
+            "source": "Challenges",
+            "target": "Unstable market"
+        },
+        {
+            "source": "Disruptive Innovation Theory",
+            "target": "Reaching new segments"
+        },
+        {
+            "source": "Disruptive Innovation Theory",
+            "target": "Creation of new markets"
+        },
+        {
+            "source": "Disruptive Innovation Theory",
+            "target": "High market impact"
+        },
+        {
+            "source": "Trends",
+            "target": "Collaborative creation"
+        },
+        {
+            "source": "Trends",
+            "target": "All in one platform"
+        },
+        {
+            "source": "Trends",
+            "target": "Virtual societies & identities"
+        },
+        {
+            "source": "Trends",
+            "target": "Metaverse"
+        },
+        {
+            "source": "Trends",
+            "target": "Integrating new technologies"
+        }
+    ]
+}
